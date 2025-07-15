@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="forecast"><span class="title">Forecast</span>&nbsp;&nbsp;Report</h2>
+      <div class="search">
+        <i class="fa-solid fa-location-dot dot"></i>
+        <input type="text" placeholder="Enter Location" class="input"/>
+        <button class="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <div class="weather">
+        <img class="img" src="./icons/clear.svg" alt="" />
+        <h2 class="temp"><i class="fa-solid fa-temperature-quarter"></i>30</h2>
+        <h2 class="city">City Name</h2>
+
+        <div class="details">
+          <div class="wrap1">
+            <i class="fas fa-tint"></i>
+          <div class="humidity">
+            <h3 class="humid">61</h3>
+            <h3>Humidity</h3>
+          </div>
+          </div>
+
+          <div class="wrap2">
+            <i class="fa-solid fa-wind"></i>
+
+          <div class="wind">
+            <h3 class="speed">123</h3>
+            <h3>Wind Speed</h3>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
